@@ -13,8 +13,8 @@ CPP_DIR:=cpp
 
 EXE:=vg
 
-CXX:=g++
-CXXFLAGS:=-O3 -msse4.1 -fopenmp -std=c++11 -ggdb -g
+CXX?=g++
+CXXFLAGS?=-O3 -msse4.1 -fopenmp -std=c++11 -ggdb -g
 
 CWD:=$(shell pwd)
 
